@@ -2,13 +2,14 @@ import Head from 'next/head'
 import Footer from './Footer.js'
 import Navbar from './Navbar.js'
 
+
 export default function Layout(props) {
     return (
         <div>
             <Head>
                 <title>Rare Collections</title>
 
-                <link rel="shortcut icon" type="image/png" href=""/>
+                <link rel="shortcut icon" type="image/png" href="/rare-favicon.png"/>
 
                 <link rel="stylesheet" href=""/>
 
