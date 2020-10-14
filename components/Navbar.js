@@ -17,10 +17,11 @@ export default function Navbar() {
                         <div className="col-lg-6 d-none d-lg-block">
                             <div className="mainmenu">
                                 <ul id="navigation">
-                                    <li className="active"><a href="index.html">Home</a></li>
-                                    <li><a href="about3.html">About</a></li>
-                                    <li><a href="service.html">Services</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="/">Index</a></li>
+                                    <li className="active"><a href="/homepage">Home</a></li>
+                                    <li><a href="/about">About</a></li>
+                                    <li><a href="/service">Services</a></li>
+                                    <li><a href="/contact">Contact</a></li>
                                 </ul>
                             </div>
                         </div>    

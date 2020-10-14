@@ -8,13 +8,13 @@ export default function Layout(props) {
             <Head>
                 <title>Rare Collections</title>
 
-                <link rel="shortcut icon" type="image/png" href="../assets/images/rare-favicon.png"/>
+                <link rel="shortcut icon" type="image/png" href=""/>
 
-                <link rel="stylesheet" href="../assets/css/bootstrap.min.css"/>
+                <link rel="stylesheet" href=""/>
 
-                <link rel="stylesheet" href="../assets/css/animate.css"/>
+                <link rel="stylesheet" href=""/>
 
-                <link rel="stylesheet" href="../assets/css/owl.carousel.css"/>
+                <link rel="stylesheet" href=""/>
 
                 <link rel="stylesheet" href="../assets/css/font-awesome.min.css"/>
 
@@ -35,7 +35,10 @@ export default function Layout(props) {
                 
             </Head>
             <Navbar/>
-            {props.children}
+            <div className="container-fluid">
+                {props.children}
+            </div>
+
             <Footer/>
         </div>
     )
