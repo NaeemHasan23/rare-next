@@ -60,7 +60,10 @@ class MyDocument extends Document {
         
           <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbeBYsZSDkbIyfUkoIw1Rt38eRQOQQU0o"></script>
           {/* put google map script here */}
+          
           <script src="js/scripts.js"></script>
+
+
         </body>
       </Html>
     )

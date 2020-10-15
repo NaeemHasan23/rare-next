@@ -18,7 +18,7 @@ export default function Navbar() {
                             <div className="mainmenu">
                                 <ul id="navigation">
                                     <li><a href="/">Index</a></li>
-                                    <li className="active"><a href="/homepage">Home</a></li>
+                                    <li><a href="/homepage">Home</a></li>
                                     <li><a href="/about">About</a></li>
                                     <li><a href="/service">Services</a></li>
                                     <li><a href="/contact">Contact</a></li>
