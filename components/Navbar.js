@@ -10,7 +10,7 @@ export default function Navbar() {
                         <div className="col-lg-6 col-md-9 col-sm-8 col-6">
                             <div className="logo">
                                 <a href="index.html">
-                                    <img src='../assets/images/rare-logo-txt.png' alt=""/>
+                                    <img src='images/rare-logo-txt.png' alt=""/>
                                 </a>
                             </div>
                         </div>
